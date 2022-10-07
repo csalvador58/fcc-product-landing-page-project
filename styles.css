@@ -1,0 +1,46 @@
+#header-img {
+    width: 125px;
+    margin-left: -2.25rem;
+    padding: 0;
+}
+
+#header-logo h1 {
+    width: 200px;
+    font-size: 1.75rem;
+    margin-left: -0.75em;
+}
+
+#header-logo, #nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-bar ul {
+    display: flex;
+    gap: 10px;
+}
+
+#nav-bar li{
+    list-style-type: none;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+html {
+    font-family: Optima, sans-serif;
+    background-color: #ffffff;
+}
