@@ -16,6 +16,18 @@
     justify-content: center;
 }
 
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hero-img {
+    width: 350px;
+    margin-top: -2rem;
+    padding: 0;
+}
+
 #nav-bar ul {
     display: flex;
     gap: 10px;
@@ -28,11 +40,20 @@
     padding: 0;
 }
 
+.Credit-sc-balk7f-0 {
+    align-items: baseline;
+    font-size: .5rem;
+}
+
 body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 20px;
+}
+
+h2 {
+    font-size: 50px;
 }
 
 header {
