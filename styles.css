@@ -65,3 +65,50 @@ html {
     font-family: Optima, sans-serif;
     background-color: #ffffff;
 }
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+#menu-items {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    
+    margin: 0 auto;
+    padding: 30px;
+    background-color: aliceblue;
+    border-radius: 25px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; */
+    min-width: 775px;
+    height: 60vh;
+    width: 75vw;
+    background-color: white;
+    border-radius: 25px;
+    display: grid;
+    justify-content: center;
+    grid: repeat(3, minmax(150px,250px)) / repeat(3, minmax(200px,250px));
+    grid-auto-rows: minmax(200px,200px);
+    
+    scrollbar-width: none;
+    overflow-y: scroll;
+}
+
+#menu-items div {
+    text-align: center;
+    height: 125px;
+    width: 225px;
+    margin: 10%;
+    padding: 0.20em;
+    border-radius: 8px; 
+    background-color: antiquewhite;
+
+}
