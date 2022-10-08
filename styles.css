@@ -1,11 +1,12 @@
+
+
 #header-img {
     width: 125px;
-    margin-left: -2.25rem;
-    padding: 0;
+    
 }
 
 #header-logo h1 {
-    width: 200px;
+    width: 50vw;
     font-size: 1.75rem;
     margin-left: -0.75em;
 }
@@ -28,61 +29,24 @@
     padding: 0;
 }
 
+
+#hero-list li {
+    margin: 10px 0;
+}
+
+#main-container {
+    position: relative;
+    top: 75px;
+}
+
+#nav-bar {
+    width: 30vw;
+}
+
 #nav-bar ul {
     display: flex;
     gap: 10px;
 }
-
-#nav-bar li{
-    list-style-type: none;
-    font-size: 1.5rem;
-    margin: 0;
-    padding: 0;
-}
-
-.Credit-sc-balk7f-0 {
-    align-items: baseline;
-    font-size: .5rem;
-}
-
-body {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px auto;
-    width: auto;
-}
-
-h2 {
-    font-size: 50px;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    top: 0;
-    min-height: 75px;
-    padding: 0px 20px;
-
-}
-
-html {
-    font-family: Optima, sans-serif;
-    background-color: #ffffff;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 
 #menu {
     display: flex;
@@ -116,3 +80,61 @@ html {
     background-color: antiquewhite;
 
 }
+
+.Credit-sc-balk7f-0 {
+    align-items: baseline;
+    font-size: .5rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px auto;
+    width: auto;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    top: 0;
+    min-height: 75px;
+    padding: 0 20px;
+    align-items: center;
+    background-color: #ffffff;
+
+}
+
+html {
+    font-family: Optima, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;  
+}
+
