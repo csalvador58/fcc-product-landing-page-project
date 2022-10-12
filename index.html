@@ -18,7 +18,7 @@
             <nav id="nav-bar">
                 <ul>
                     <li><a class="nav-link" href="#About">About</a></li>
-                    <li><a class="nav-link" href="#menu">Menu</a></li>
+                    <li><a class="nav-link" href="#menu-anchor">Menu</a></li>
                     <li><a class="nav-link" href="#Contact">Contact</a></li>
                 </ul>
 
@@ -27,10 +27,12 @@
         
             
         <section id="hero">
-            <h2 id="About">Made Fresh Daily!</h2>
+            <h2>Made Fresh Daily!</h2>
             <img id="hero-img" src="https://assets3.thrillist.com/v1/image/2811343/1584x1054/crop;webp=auto;jpeg_quality=60.jpg" alt="various boba tea drinks">
             <span class="Credit-sc-balk7f-0">Photo: Jaybranding Studio/Shutterstock</span>
             <article>
+                <a class="anchor" id="About"></a>
+                <h3>Come Visit Us!</h3>
                 <ul id="hero-list">
                     <li>Our innovated brewing and cooking process creates the freshest, most delicious, and highest-quality beverages.</li>
                     <li>Every drink is made to order and our tea is freshly brewed every hour.</li>
@@ -40,6 +42,7 @@
 
         </section>
         <main>
+            <a class="anchor2" id="menu-anchor"></a>
             <div id="menu">
                 <h3>Menu Item</h3>
                 <div id="menu-items">
@@ -58,10 +61,17 @@
                 </div>
             </div>
             
-            <div></div>
+            <div class="media-video">
+                <!-- <iframe id="video" allowfullscreen="" frameborder="0" src="//player.vimeo.com/video/497479117?title=0&amp;portrait=0&amp;byline=0&amp;autoplay=1&amp;muted=true"></iframe> -->
+                <video id="video" height="375" autoplay="true" muted="true" src="/media/PXL_20221012_002446833.TS~2.mp4" type="video/mp4" loop="true" controls></video>
+            </div>
         </main>
         <footer id="Contact">
             <h3>Contact Us</h3>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input name="email" id="email" type="email" placeholder="Enter your email address" required="">
+                <input id="submit" type="submit" value="submit" class="btn">
+            </form>
             <div id="icons-container">
                 <a rel="noopener" role="link" aria-haspopup="true" data-ux="Link" target="_blank" data-aid="FOOTER_FACEBOOK_LINK" aria-label="Facebook" href="https://www.facebook.com/" data-typography="LinkAlpha" class="x-el x-el-a c1-2p c1-2q c1-2r c1-1l c1-1m c1-5p c1-2s c1-ff c1-b c1-a6 c1-c c1-2z c1-3l c1-31 c1-d c1-e c1-f c1-g" ><svg viewBox="0 0 24 24" fill="currentColor" width="40px" height="40px" data-ux="IconSocial" class="x-el x-el-svg c1-1 c1-2 c1-2y c1-33 c1-3r c1-35 c1-36 c1-37 c1-38 c1-b c1-c c1-d c1-e c1-f c1-g"><g><path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.093 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.563V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" fill="#1877F2"></path><path d="M15.893 14.89l.443-2.89h-2.773v-1.875c0-.79.387-1.563 1.63-1.563h1.26v-2.46s-1.144-.196-2.238-.196c-2.284 0-3.777 1.385-3.777 3.89V12h-2.54v2.89h2.54v6.988a10.04 10.04 0 003.124 0v-6.987h2.33z" fill="#fff"></path></g></svg></a>
                 
