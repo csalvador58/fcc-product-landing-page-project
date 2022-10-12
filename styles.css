@@ -172,6 +172,20 @@ ul {
     text-decoration: none;  
 }
 
+@media (max-width: 650px) {
+    header {
+        flex-direction: column;
+    
+    }
+    #hero {
+        margin-top: 5rem;
+        
+    }
+    #nav-bar {
+        margin-top: -25px;
+    }
+  }
+
 @keyframes textWave {
     25% {
         transform: rotate(8deg) scaleX(1);
